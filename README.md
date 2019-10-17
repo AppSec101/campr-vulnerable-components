@@ -31,7 +31,7 @@
 
 2. Open the application at http://localhost:9001/
 
-3. Run tests. 
+3. Run tests. All tests will pass 
 
    ```bash
    docker exec -it campr-vulnerable-components /bin/sh -c 'cd app && ./gradlew -g /app/.gradle test'
@@ -80,7 +80,7 @@ REMEMBER TO DO THIS STEP. LEAVING THE SERVER RUNNING COULD PUT YOUR COMPUTER AT 
   
 - Open the app at http://localhost:8080/
 
-- Run the tests
+- Run the tests. All tests will pass 
 
   ```bash
   ./gradlew test
