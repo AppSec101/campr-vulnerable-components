@@ -20,7 +20,7 @@
 - Run the application
 
   ```bash
-  ./gradlew bootRun
+  ./gradlew appRun
   ```
   
 - Open the app at http://localhost:8080/
