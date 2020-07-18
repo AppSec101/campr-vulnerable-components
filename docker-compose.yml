@@ -4,6 +4,8 @@ services:
     container_name: campr-vulnerable-components-workshop
     image: openjdk:8-jdk-slim
     command: bash -c "cd /app && ./gradlew -g /app/.gradle appRun"
+    stdin_open: true
+    tty: true
     volumes:
       - .:/app/
     ports:
